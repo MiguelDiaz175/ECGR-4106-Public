@@ -1,0 +1,9 @@
+{
+  "sequence_accuracy": 0.009009009009009009,
+  "bleu4": 0.06669754035842985,
+  "n_examples": 111,
+  "final_train_loss": 1.5235641513551985,
+  "final_val_loss": 5.666567325592041,
+  "epochs": 30,
+  "model": "baseline_gru_en_fr"
+}

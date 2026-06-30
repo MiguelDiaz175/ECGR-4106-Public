@@ -1,0 +1,112 @@
+input,target,prediction,exact_match,bleu4
+I can see a large cruise ship in the distance,Je peux voir un grand navire de croisière au loin,Je vois un avion dans le parc pendant,False,0.025725069574826766
+She is looking for her lost dog,Elle cherche son chien perdu,Elle cherche son chat perdu partout,False,0.21711852081087685
+He finished his homework quickly,Il a fini ses devoirs rapidement,Il a terminé son projet scientifique en avance du jogging,False,0.0446323613785333
+We prefer walking through the quiet botanical gardens,Nous préférons nous promener dans les jardins botaniques calmes,Nous avons visité le lever de soleil le coucher,False,0.023980296761827107
+They visit museums often,Ils visitent souvent des musées,Ils ont construit une grande avec un immense,False,0.02777619034011792
+The summer is very hot here,L'été est très chaud ici,Le thé est est trop sucré pour être bu,False,0.023980296761827107
+She works part-time at the library,Elle travaille à temps partiel à la bibliothèque,Elle travaille à plein temps à l'hôpital,False,0.16102307266026747
+The snow is melting fast,La neige fond rapidement,Le thé est est trop amer sans,False,0.0
+He answers the phone calls with a polite voice,Il répond aux appels téléphoniques d'une voix polie,Il a perdu ses clés de de de sa,False,0.023980296761827107
+He drives a black sedan,Il conduit une berline noire,Il conduit une berline de luxe noire pour aller,False,0.3155984539112945
+The ice cream is melting,La glace fond,La bibliothèque locale est fermée les jours,False,0.033031643180138064
+We are planning a trip to London,Nous planifions un voyage à Londres,Nous allons rendre visite à nos proches le mois,False,0.028517539529041507
+You have a beautiful smile,Tu as un beau sourire,Vous avez une collection de disques vinyles vraiment magnifique,False,0.0
+The dynamic landscape is beautiful,Le paysage dynamique est magnifique,Le thé est est trop amer sans,False,0.039281465090051315
+The teacher answers the question,L'enseignant répond à la question,Le thé de la boulangerie est exceptionnellement est agréable,False,0.023980296761827107
+They built a safe campfire near the lake,Ils ont fait un feu de camp sûr près du lac,Ils ont construit une grande avec un immense de,False,0.04829027362797447
+She makes delicious cakes,Elle fait de délicieux gâteaux,Elle porte un collier de perles pour les cheveux,False,0.028517539529041507
+They play soccer every weekend,Ils jouent au football chaque week-end,Ils vont à la course de la plage,False,0.02777619034011792
+The emergency room nurse told him to rest,L'infirmière des urgences lui a dit de se reposer,Le dentiste m'a conseillé de me brosser les dents deux fois,False,0.018850319022747353
+They speak Spanish fluently,Ils parlent espagnol couramment,Ils ont construit une grande avec un immense,False,0.02777619034011792
+The organic market opens at dawn on Saturdays,Le marché biologique ouvre à l'aube le samedi,Le thé de l'eau à la boulangerie est agréable,False,0.028517539529041507
+I look forward to the weekend,J'attends le week-end avec impatience,J'ai reçu une invitation officielle à la fête,False,0.0
+They read books at the library,Ils lisent des livres à la bibliothèque,Ils ont construit une cabane confortable au bord de la,False,0.025098621243978974
+They play basketball after school,Ils jouent au basket après l'école,Ils vont à la course de la plage,False,0.02777619034011792
+They listen to classical music,Ils écoutent de la musique classique,Ils ont construit une cabane confortable au bord de la,False,0.04939382737115371
+I need a new pair of shoes,J'ai besoin d'une nouvelle paire de chaussures,J'ai besoin d'une d'une paire de bottes d'hiver fiable,False,0.14923729480049117
+I will call you later,Je t'appellerai plus tard,Je dois renouveler mon permis de conduire la,False,0.02777619034011792
+He works as a software engineer,Il travaille comme ingénieur logiciel,Il conduit une berline de luxe noire pour aller,False,0.023980296761827107
+I forgot my umbrella,J'ai oublié mon parapluie,Je dois renouveler mon permis de conduire la fête,False,0.023980296761827107
+He likes to watch historical documentaries on television,Il aime regarder des documentaires historiques à la télévision,Il aime lire des romans classiques de science-fiction,False,0.057367534172156044
+I lost my keys in the grass,J'ai perdu mes clés dans l'herbe,J'ai malheureusement perdu ma bague dans l'océan,False,0.043472087194499145
+The flight was delayed due to heavy fog,Le vol a été retardé en raison d'un brouillard épais,Le dentiste m'a conseillé de me brosser les dents,False,0.02145851237135921
+The monkey climbs the banana tree,Le simge grimpe sur le bananier,Le thé noir est trop sucré pour être bu,False,0.023980296761827107
+I am currently reading a classic Russian novel,Je lis actuellement un roman classique russe,Je lis actuellement une biographie historique fascinante,False,0.16348126556655487
+The children love chocolate,Les enfants adorent le chocolat,Le thé est est trop amer sans,False,0.0
+They live near a beautiful lake,Ils vivent près d'un beau lac,Ils ont construit une grande avec un immense,False,0.02777619034011792
+I see a helicopter flying over the city,Je vois un hélicoptère voler au-dessus de la ville,Je vois un avion dans le parc pendant,False,0.12131756417616475
+She works in a laboratory,Elle travaille dans un laboratoire,Elle travaille à la poésie pendant trois le dimanche,False,0.050712153369465586
+We are planning a trip to Rome,Nous planifions un voyage à Rome,Nous allons rendre visite à nos proches le mois,False,0.028517539529041507
+We crossed the wide river using a wooden raft,Nous avons traversé la large rivière en utilisant un radeau en bois,Nous avons traversé la rue bondée de la le parc,False,0.2150731916129893
+He drives an old green delivery truck,Il conduit un vieux camion de livraison vert,Il joue de la basse dans un groupe de jazz,False,0.02777619034011792
+I cannot find my passport anywhere in the room,Je ne trouve mon passeport nulle part dans la chambre,J'ai malheureusement perdu ma bague en or dans l'océan,False,0.02145851237135921
+They built a thick concrete wall for safety,Ils ont construit un épais mur en béton pour la sécurité,Ils ont construit une grande avec un immense de,False,0.10212149527580384
+We need a bigger table,Nous avons besoin d'une plus grande table,Nous avons visité le lever de soleil le parc,False,0.050712153369465586
+She enjoys listening to classical music at night,Elle aime écouter de la musique classique la nuit,Elle a acheté un beau tableau de logiciels,False,0.02915032279375143
+The autumn weather is very rainy here,Le temps d'automne est très pluvieux ici,Le thé est est trop sucré pour être bu,False,0.028517539529041507
+The sleepy koala climbs the tall eucalyptus tree,Le koala endormi grimpe sur le grand eucalyptus,Le thé de l'eau dans la piscine est agréable,False,0.023980296761827107
+I received a letter from my friend,J'ai reçu une lettre de mon ami,J'ai reçu une carte postale amusante de mon,False,0.17286039232097053
+The weather forecast predicts heavy snow tomorrow,Les prévisions météo annoncent de fortes chutes de neige demain,Le thé de la boulangerie est exceptionnellement est exceptionnellement,False,0.02145851237135921
+I bought a new pair of leather boots today,J'ai acheté une nouvelle paire de bottes en cuir aujourd'hui,Je veux une tasse de thé chaud au chocolat,False,0.025518615589394285
+He left his wallet at home,Il a laissé son portefeuille à la maison,Il a perdu ses clés de sa bicyclette,False,0.05873949094699214
+He is searching everywhere for his lost wallet,Il cherche partout son portefeuille perdu,Il nettoie sa chambre chaque soir,False,0.040824829046386304
+We crossed the old bridge,Nous avons traversé le vieux pont,Nous avons traversé le col de soleil le parc,False,0.2984745896009823
+They speak standard European Spanish fluently,Ils parlent couramment l'espagnol européen standard,Ils ont construit une grande avec un immense,False,0.02777619034011792
+She cooks a traditional meal,Elle cuisine un repas traditionnel,Elle a une un tournoi d'échecs en or,False,0.03303164318013808
+I will fix the broken window tomorrow morning,Je réparerai la fenêtre cassée demain matin,Je réparerai un SMS quand j'arriverai à la maison,False,0.056122223243057295
+We explored the narrow corridors of the old castle,Nous avons exploré les couloirs étroits du vieux château,Nous avons visité le lever de soleil le coucher,False,0.050712153369465586
+The mirror reflects the light,Le miroir reflète la lumière,Le thé de l'eau dans la piscine est agréable,False,0.028517539529041507
+They go skiing every winter,Ils vont skier chaque hiver,Ils vont à la course de distribution,False,0.06985342056580097
+The organic milk must be kept cold,Le lait biologique doit être gardé au frais,Le thé noir est trop sucré pour être bu,False,0.028517539529041507
+The bus arrives at five o'clock,Le bus arrive à cinq heures,Le café de la boulangerie est exceptionnellement fort,False,0.02777619034011792
+They travel to Paris,Ils voyagent à Paris,Ils ont construit une nouvelle de de de la,False,0.023980296761827107
+We watch movies on Fridays,Nous regardons des films le vendredi,Nous avons visité le lever de soleil le parc,False,0.028517539529041507
+The sun is shining,Le soleil brille,Le thé est est trop amer sans,False,0.033031643180138064
+She translates technical documents,Elle traduit des documents techniques,Elle traduit des contrats juridiques complexes pour des entreprises mondiales,False,0.10445522730720382
+I look forward to attending the tech conference,J'attends avec impatience d'assister à la conférence technologique,J'ai reçu une invitation dans la forêt dense,False,0.02777619034011792
+The morning double espresso is incredibly strong,Le double expresso du matin est incroyablement fort,Le café est est trop amer sans,False,0.034052233956373766
+I look forward to the holidays,J'attends les vacances avec impatience,J'ai reçu une invitation officielle à la fête,False,0.0
+The coffee machine is broken,La machine à café est en panne,Le thé est est trop amer sans,False,0.033031643180138064
+You are tired,Tu es fatigué,Ils ont construit une grande maison en bois,False,0.0
+He speaks five dialects of Chinese fluently,Il parle couramment cinq dialectes du chinois,Il a perdu ses clés de la science-fiction,False,0.02777619034011792
+He waits for the bus,Il attend le bus,Il a perdu ses clés de la science-fiction,False,0.02777619034011792
+They practice swimming techniques every single afternoon,Ils s'entraînent aux techniques de natation chaque après-midi,Ils vont à la course de la plage,False,0.03303164318013808
+He likes to play chess,Il aime jouer aux échecs,Il répond immédiatement à tous les e-mails des clients,False,0.023980296761827107
+They practice their instruments for hours every day,Ils pratiquent leurs instruments pendant des heures chaque jour,Ils ont construit une grande maison en brique,False,0.024512401940754224
+The museum is an educational place,Le musée est un lieu éducatif,Le thé est est trop sucré pour être bu,False,0.028517539529041507
+She always drinks warm milk before going to bed,Elle boit toujours du lait chaud avant de se coucher,Elle adore porter des vestes en cuir modernes,False,0.02163211878762423
+The morning train is usually packed with commuters,Le train du matin est généralement bondé de banlieusards,Le café est est trop amer sans,False,0.029519129053903102
+The championship football match was incredibly intense,Le match de football du championnat était incroyablement intense,Le thé noir est trop sucré pour être bu,False,0.023980296761827107
+She works as a manager at a local bank,Elle travaille comme directrice dans une banque locale,Elle travaille à plein temps à l'hôpital,False,0.0605543865104477
+I dropped my keys somewhere in the sandbox,J'ai fait tomber mes clés quelque part dans le bac à sable,J'ai malheureusement perdu ma bague dans l'océan,False,0.019229913610012243
+We are going to the beach tomorrow,Nous allons à la plage demain,Nous allons rendre visite à nos proches le mois,False,0.056122223243057295
+She won first place in the writing contest,Elle a remporté la première place au concours d'écriture,Elle a gagné un tournoi d'échecs de logiciels,False,0.05183741882011645
+The heavy door has a beautiful wooden handle,La lourde porte a une belle poignée en bois,La porte a une un menu spécial pour les invités,False,0.1122444464861146
+She bought an expensive leather bag yesterday,Elle a acheté un sac en cuir cher hier,Elle a acheté un beau tableau de logiciels,False,0.3050975216056289
+He works long hours as a financial consultant,Il travaille de longues heures comme consultant financier,Il conduit une berline de luxe noire pour aller,False,0.028517539529041507
+She works full-time at the hospital,Elle travaille à plein temps à l'hôpital,Elle travaille à plein temps à l'hôpital,True,1.0
+I see a rainbow in the sky,Je vois un arc-en-ciel dans le ciel,Je vois un avion dans le parc pendant,False,0.17286039232097053
+She wears a red dress,Elle porte une robe rouge,Elle porte un élégant collier de perles pour le gala,False,0.0446323613785333
+She practices her dance routine in front of the mirror,Elle pratique sa routine de danse devant le miroir,Elle travaille à des vestes en cuir modernes,False,0.024512401940754224
+The science experiment requires a special microscope,L'expérience scientifique nécessite un microscope spécial,Le thé de la boulangerie est exceptionnellement est exceptionnellement,False,0.0
+Please pass me the salt,"S'il vous plaît, passez-moi le sel",Veuillez vérifier vos informations de saisie avant de soumettre,False,0.0
+The birds gather dry twigs for their nests,Les oiseaux ramassent des brindilles sèches pour leurs nids,Les oiseaux chantent dans un nid en bois,False,0.05183741882011645
+He runs five miles every morning before breakfast,Il court cinq milles tous les matins avant le petit déjeuner,Il a perdu ses clés de la science-fiction,False,0.019090277826420414
+You have a beautiful garden full of colorful roses,Vous avez un magnifique jardin plein de roses colorées,Vous avez une collection de disques vinyles vraiment,False,0.057367534172156044
+We need to buy a dozen fresh eggs,Nous devons acheter une douzaine d'œufs frais,Nous devons acheter des articles de de de la,False,0.11868405219520975
+We swim during summer,Nous nageons pendant l'été,Nous avons visité le lever de soleil le coucher,False,0.023980296761827107
+We visited the national park,Nous avons visité le parc national,Nous avons visité le lever de soleil le coucher,False,0.2984745896009823
+They regularly play tennis on the weekends,Ils jouent régulièrement au tennis le week-end,Ils ont construit une grande avec un immense,False,0.02777619034011792
+They live in a beautiful apartment facing the river,Ils vivent dans un bel appartement face à la rivière,Ils ont construit une grande avec un immense de,False,0.025518615589394285
+The map of the subway network is confusing,La carte du réseau de métro est déroutante,La bibliothèque locale est un excellent espace d'étude,False,0.03303164318013808
+The computer is fast,L'ordinateur est rapide,Le thé est est trop amer sans,False,0.033031643180138064
+I want to eat an apple,Je veux manger une pomme,Je veux boire une pomme verte fraîche,False,0.09878765474230743
+We visited the historic monument,Nous avons visité le monument historique,Nous avons visité le lever de soleil le coucher,False,0.2984745896009823
+The keys are missing from my coat pocket,Les clés manquent dans la poche de mon manteau,Les feuilles rouges couvrent le sol en octobre,False,0.024512401940754224
+Please close the gate,"S'il vous plaît, fermez la barrière",Veuillez vérifier vos informations de saisie avant de soumettre,False,0.0
+We are planning a dream trip to Rome next year,Nous planifions un voyage de rêve à Rome l'année prochaine,Nous allons rendre visite à nos proches le mois,False,0.025518615589394285
+We crossed the desert by camel,Nous avons traversé le désert à dos de chameau,Nous avons traversé le col de soleil le parc,False,0.3155984539112945
+The museum is closed today,Le musée est fermé aujourd'hui,Le thé de est trop sucré pour être bu,False,0.028517539529041507
+The small children share their colorful toys,Les petits enfants partagent leurs jouets colorés,Les membres de l'équipe partagent leurs idées lors des réunions,False,0.04939382737115371
+The new software update fixed several critical bugs,La nouvelle mise à jour logicielle a corrigé plusieurs bugs critiques,Le thé noir est trop sucré pour être bu,False,0.0

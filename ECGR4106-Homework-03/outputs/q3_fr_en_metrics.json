@@ -1,0 +1,21 @@
+{
+  "direction": "fr_en",
+  "baseline": {
+    "sequence_accuracy": 0.0,
+    "bleu4": 0.09437877146542574,
+    "n_examples": 111,
+    "model": "baseline_gru_fr_en",
+    "final_train_loss": 1.4040431465421404,
+    "final_val_loss": 5.185165762901306,
+    "epochs": 30
+  },
+  "attention": {
+    "sequence_accuracy": 0.0,
+    "bleu4": 0.1146352000939895,
+    "n_examples": 111,
+    "model": "attention_gru_fr_en",
+    "final_train_loss": 0.7755163354533059,
+    "final_val_loss": 5.4519041776657104,
+    "epochs": 30
+  }
+}

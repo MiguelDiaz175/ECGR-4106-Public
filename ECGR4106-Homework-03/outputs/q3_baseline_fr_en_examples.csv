@@ -1,0 +1,112 @@
+input,target,prediction,exact_match,bleu4
+Je peux voir un grand navire de croisière au loin,I can see a large cruise ship in the distance,I will fix you when the confirmation,False,0.02558948059670209
+Elle cherche son chien perdu,She is looking for her lost dog,She is looking for a for pair of shoes,False,0.2984745896009823
+Il a fini ses devoirs rapidement,He finished his homework quickly,He finished his balance every single morning,False,0.16348126556655487
+Nous préférons nous promener dans les jardins botaniques calmes,We prefer walking through the quiet botanical gardens,We are planning a massive road trip across Canada,False,0.023980296761827107
+Ils visitent souvent des musées,They visit museums often,They practice long-distance running every single morning,False,0.033031643180138064
+L'été est très chaud ici,The summer is very hot here,The tea is too sweet to drink,False,0.039281465090051315
+Elle travaille à temps partiel à la bibliothèque,She works part-time at the library,She works full-time at the general hospital,False,0.09878765474230743
+La neige fond rapidement,The snow is melting fast,The fresh orange is melting remarkably,False,0.09554427922043669
+Il répond aux appels téléphoniques d'une voix polie,He answers the phone calls with a polite voice,He plays his in a jazz band,False,0.029519129053903102
+Il conduit une berline noire,He drives a black sedan,He drives a black for a website,False,0.41113361690051975
+La glace fond,The ice cream is melting,The fresh orange is melting remarkably,False,0.09554427922043669
+Nous planifions un voyage à Londres,We are planning a trip to London,We are planning a massive road trip across Canada,False,0.3155984539112945
+Tu as un beau sourire,You have a beautiful smile,The birds are a a nice house,False,0.033031643180138064
+Le paysage dynamique est magnifique,The dynamic landscape is beautiful,The coffee is very the the,False,0.048549177170732344
+L'enseignant répond à la question,The teacher answers the question,The fresh orange smells wonderful the the,False,0.039281465090051315
+Ils ont fait un feu de camp sûr près du lac,They built a safe campfire near the lake,They built a cozy treehouse for the kids,False,0.1477219991186121
+Elle fait de délicieux gâteaux,She makes delicious cakes,She loves baking for her hair dark brown,False,0.02777619034011792
+Ils jouent au football chaque week-end,They play soccer every weekend,They practice long-distance every single morning,False,0.048549177170732344
+L'infirmière des urgences lui a dit de se reposer,The emergency room nurse told him to rest,She loves baking to wear long flowing cotton,False,0.02777619034011792
+Ils parlent espagnol couramment,They speak Spanish fluently,They often talk about environmental conservation efforts,False,0.033031643180138064
+Le marché biologique ouvre à l'aube le samedi,The organic market opens at dawn on Saturdays,The local library is too sweet to drink,False,0.02777619034011792
+J'attends le week-end avec impatience,I look forward to the weekend,I look forward to the upcoming summer,False,0.6147881529512643
+Ils lisent des livres à la bibliothèque,They read books at the library,They practice running every single morning,False,0.040824829046386304
+Ils jouent au basket après l'école,They play basketball after school,They feed the the pigeons in the square,False,0.02777619034011792
+Ils écoutent de la musique classique,They listen to classical music,They built to the beach last night,False,0.039281465090051315
+J'ai besoin d'une nouvelle paire de chaussures,I need a new pair of shoes,I need a reliable pair of running,False,0.20556680845025987
+Je t'appellerai plus tard,I will call you later,I will fix the leaky faucet tomorrow morning,False,0.05873949094699214
+Il travaille comme ingénieur logiciel,He works as a software engineer,He teaches chemistry to middle school,False,0.040824829046386304
+J'ai oublié mon parapluie,I forgot my umbrella,I need to renew my driver's license next,False,0.03303164318013808
+Il aime regarder des documentaires historiques à la télévision,He likes to watch historical documentaries on television,He writes scripts for successful television series,False,0.034052233956373766
+J'ai perdu mes clés dans l'herbe,I lost my keys in the grass,I need to renew my driver's license next,False,0.03303164318013808
+Le vol a été retardé en raison d'un brouillard épais,The flight was delayed due to heavy fog,The chef prepared a special menu for the guests,False,0.023980296761827107
+Le simge grimpe sur le bananier,The monkey climbs the banana tree,The local library is on the rug,False,0.039281465090051315
+Je lis actuellement un roman classique russe,I am currently reading a classic Russian novel,I will text you when I arrive home,False,0.02777619034011792
+Les enfants adorent le chocolat,The children love chocolate,The local advised me to the,False,0.040824829046386304
+Ils vivent près d'un beau lac,They live near a beautiful lake,They built a large stone wall the the,False,0.03303164318013808
+Je vois un hélicoptère voler au-dessus de la ville,I see a helicopter flying over the city,I see a plane in the forest,False,0.15228621982435664
+Elle travaille dans un laboratoire,She works in a laboratory,She works in a high-tech chemical laboratory,False,0.4347208719449914
+Nous planifions un voyage à Rome,We are planning a trip to Rome,We are planning a massive road trip across Canada,False,0.3155984539112945
+Nous avons traversé la large rivière en utilisant un radeau en bois,We crossed the wide river using a wooden raft,We visited the ancient ruins during the,False,0.029519129053903102
+Il conduit un vieux camion de livraison vert,He drives an old green delivery truck,He plays bass in a jazz band,False,0.033031643180138064
+Je ne trouve mon passeport nulle part dans la chambre,I cannot find my passport anywhere in the room,I will fix the leaky faucet tomorrow morning,False,0.02915032279375143
+Ils ont construit un épais mur en béton pour la sécurité,They built a thick concrete wall for safety,They built a large stone wall the the,False,0.1477219991186121
+Nous avons besoin d'une plus grande table,We need a bigger table,We visited the ancient ruins during the,False,0.033031643180138064
+Elle aime écouter de la musique classique la nuit,She enjoys listening to classical music at night,She loves to dye her hair dark brown,False,0.03303164318013808
+Le temps d'automne est très pluvieux ici,The autumn weather is very rainy here,The coffee is is very strong,False,0.0808764862779457
+Le koala endormi grimpe sur le grand eucalyptus,The sleepy koala climbs the tall eucalyptus tree,The small chipmunks store seeds for the the,False,0.03303164318013808
+J'ai reçu une lettre de mon ami,I received a letter from my friend,I received an invitation to the party,False,0.06985342056580097
+Les prévisions météo annoncent de fortes chutes de neige demain,The weather forecast predicts heavy snow tomorrow,The soup needs a little more salt,False,0.033031643180138064
+J'ai acheté une nouvelle paire de bottes en cuir aujourd'hui,I bought a new pair of leather boots today,I received an invitation to the party,False,0.024822529802838878
+Il a laissé son portefeuille à la maison,He left his wallet at home,He finished his entire every single morning,False,0.039281465090051315
+Il cherche partout son portefeuille perdu,He is searching everywhere for his lost wallet,He writes articles for a website,False,0.03478700554542394
+Nous avons traversé le vieux pont,We crossed the old bridge,We watched the sunrise this morning,False,0.048549177170732344
+Ils parlent couramment l'espagnol européen standard,They speak standard European Spanish fluently,They often talk about environmental conservation efforts,False,0.033031643180138064
+Elle cuisine un repas traditionnel,She cooks a traditional meal,She cooks a traditional three-course meal for,False,0.4347208719449914
+Je réparerai la fenêtre cassée demain matin,I will fix the broken window tomorrow morning,I will fix the leaky faucet tomorrow morning,False,0.4111336169005197
+Nous avons exploré les couloirs étroits du vieux château,We explored the narrow corridors of the old castle,We visited the ancient ruins during the,False,0.03266828640925502
+Le miroir reflète la lumière,The mirror reflects the light,The bread is the the the,False,0.048549177170732344
+Ils vont skier chaque hiver,They go skiing every winter,They often talk about economics and resource distribution,False,0.02777619034011792
+Le lait biologique doit être gardé au frais,The organic milk must be kept cold,The fresh orange is melting remarkably the,False,0.033031643180138064
+Le bus arrive à cinq heures,The bus arrives at five o'clock,The fresh orange juice must to the,False,0.033031643180138064
+Ils voyagent à Paris,They travel to Paris,They built a large stone wall the the,False,0.02777619034011792
+Nous regardons des films le vendredi,We watch movies on Fridays,We watched the sunrise this morning,False,0.040824829046386304
+Le soleil brille,The sun is shining,The bread is very strong,False,0.06389431042462725
+Elle traduit des documents techniques,She translates technical documents,She translates legal manuscripts into every day,False,0.06985342056580097
+J'attends avec impatience d'assister à la conférence technologique,I look forward to attending the tech conference,I look forward to the upcoming summer,False,0.3768499164492419
+Le double expresso du matin est incroyablement fort,The morning double espresso is incredibly strong,The coffee is is melting remarkably,False,0.041095991233501536
+J'attends les vacances avec impatience,I look forward to the holidays,I look forward to the upcoming summer,False,0.6147881529512643
+La machine à café est en panne,The coffee machine is broken,The fresh advised me to brush,False,0.040824829046386304
+Tu es fatigué,You are tired,The window reflects the the the,False,0.0
+Il parle couramment cinq dialectes du chinois,He speaks five dialects of Chinese fluently,He finished his entire every evening,False,0.03455747170954952
+Il attend le bus,He waits for the bus,He finished his science every evening,False,0.040824829046386304
+Ils s'entraînent aux techniques de natation chaque après-midi,They practice swimming techniques every single afternoon,They practice running every single morning,False,0.10335094640592336
+Il aime jouer aux échecs,He likes to play chess,He teaches to to middle school,False,0.048549177170732344
+Ils pratiquent leurs instruments pendant des heures chaque jour,They practice their instruments for hours every day,They practice running every single morning,False,0.06846046760764757
+Le musée est un lieu éducatif,The museum is an educational place,The black tea is too sweet to drink,False,0.03303164318013808
+Elle boit toujours du lait chaud avant de se coucher,She always drinks warm milk before going to bed,She practices the cello for a bright yellow,False,0.024512401940754224
+Le train du matin est généralement bondé de banlieusards,The morning train is usually packed with commuters,The local hotel is too sweet to drink,False,0.03303164318013808
+Le match de football du championnat était incroyablement intense,The championship football match was incredibly intense,The fresh advised me to brush twice,False,0.033031643180138064
+Elle travaille comme directrice dans une banque locale,She works as a manager at a local bank,She works part-time a high-tech chemical laboratory,False,0.05809334108283256
+J'ai fait tomber mes clés quelque part dans le bac à sable,I dropped my keys somewhere in the sandbox,I look forward to collaborating the the,False,0.034052233956373766
+Nous allons à la plage demain,We are going to the beach tomorrow,We are going to the the the,False,0.6147881529512643
+Elle a remporté la première place au concours d'écriture,She won first place in the writing contest,She won a traditional Sunday roast for everyone,False,0.05873949094699214
+La lourde porte a une belle poignée en bois,The heavy door has a beautiful wooden handle,The chef prepared a special menu for the guests,False,0.028517539529041507
+Elle a acheté un sac en cuir cher hier,She bought an expensive leather bag yesterday,She cooked a traditional Sunday roast for everyone,False,0.02777619034011792
+Il travaille de longues heures comme consultant financier,He works long hours as a financial consultant,He plays drums in a rock band,False,0.034052233956373766
+Elle travaille à plein temps à l'hôpital,She works full-time at the hospital,She works part-time at the general,False,0.12209471671615688
+Je vois un arc-en-ciel dans le ciel,I see a rainbow in the sky,I see a plane in the forest,False,0.20556680845025987
+Elle porte une robe rouge,She wears a red dress,She wears a elegant pearl necklace to the gala,False,0.11868405219520975
+Elle pratique sa routine de danse devant le miroir,She practices her dance routine in front of the mirror,She translates a traditional three-course meal for dinner,False,0.02163211878762423
+L'expérience scientifique nécessite un microscope spécial,The science experiment requires a special microscope,The chef prepared a special menu for the,False,0.06500593260343691
+"S'il vous plaît, passez-moi le sel",Please pass me the salt,The local library is too sweet to drink,False,0.0
+Les oiseaux ramassent des brindilles sèches pour leurs nids,The birds gather dry twigs for their nests,The local dentist advised me to brush,False,0.028634401465295497
+Il court cinq milles tous les matins avant le petit déjeuner,He runs five miles every morning before breakfast,He finished his in the science fiction,False,0.028634401465295497
+Vous avez un magnifique jardin plein de roses colorées,You have a beautiful garden full of colorful roses,You have a a nice house,False,0.1225504602011117
+Nous devons acheter une douzaine d'œufs frais,We need to buy a dozen fresh eggs,We need to complete this layout task by midnight,False,0.11868405219520975
+Nous nageons pendant l'été,We swim during summer,We are going to the the the,False,0.033031643180138064
+Nous avons visité le parc national,We visited the national park,We visited the ancient ruins during the,False,0.16348126556655487
+Ils jouent régulièrement au tennis le week-end,They regularly play tennis on the weekends,They built the the pigeons in the kids,False,0.03303164318013808
+Ils vivent dans un bel appartement face à la rivière,They live in a beautiful apartment facing the river,They built a large stone wall the the,False,0.03226013518927287
+La carte du réseau de métro est déroutante,The map of the subway network is confusing,The local dentist advised me to brush twice,False,0.02777619034011792
+L'ordinateur est rapide,The computer is fast,The bread is very the bakery,False,0.048549177170732344
+Je veux manger une pomme,I want to eat an apple,I want to drink a hot cup of coffee,False,0.11868405219520975
+Nous avons visité le monument historique,We visited the historic monument,We visited the ancient ruins during the,False,0.16348126556655487
+Les clés manquent dans la poche de mon manteau,The keys are missing from my coat pocket,The water temperature in the pool is,False,0.028634401465295497
+"S'il vous plaît, fermez la barrière",Please close the gate,The soup temperature in the pool is,False,0.033031643180138064
+Nous planifions un voyage de rêve à Rome l'année prochaine,We are planning a dream trip to Rome next year,We are planning a massive road trip across Canada,False,0.2824099048856541
+Nous avons traversé le désert à dos de chameau,We crossed the desert by camel,We watched the sunrise this morning,False,0.048549177170732344
+Le musée est fermé aujourd'hui,The museum is closed today,The tea is too sweet to drink,False,0.039281465090051315
+Les petits enfants partagent leurs jouets colorés,The small children share their colorful toys,The fresh coffee is very strong,False,0.03455747170954952
+La nouvelle mise à jour logicielle a corrigé plusieurs bugs critiques,The new software update fixed several critical bugs,The chef prepared a special menu for the guests,False,0.023980296761827107

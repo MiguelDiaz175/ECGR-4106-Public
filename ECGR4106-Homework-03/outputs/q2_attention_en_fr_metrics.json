@@ -1,0 +1,9 @@
+{
+  "sequence_accuracy": 0.009009009009009009,
+  "bleu4": 0.12389598332853514,
+  "n_examples": 111,
+  "final_train_loss": 0.08852405207497734,
+  "final_val_loss": 5.897718071937561,
+  "epochs": 30,
+  "model": "attention_gru_en_fr"
+}
