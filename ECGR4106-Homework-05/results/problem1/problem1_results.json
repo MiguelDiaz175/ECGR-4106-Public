@@ -1,0 +1,631 @@
+{
+  "results": [
+    {
+      "model_name": "vit_p4_d256_l4_h4",
+      "configuration": "{\"name\": \"vit_p4_d256_l4_h4\", \"image_size\": 32, \"patch_size\": 4, \"in_channels\": 3, \"num_classes\": 100, \"embed_dim\": 256, \"depth\": 4, \"num_heads\": 4, \"dropout\": 0.1, \"mlp_hidden_dim\": 1024, \"manual_parameter_breakdown\": {\"patch_embedding\": 12544, \"class_token\": 256, \"positional_embedding\": 16640, \"attention_projections_all_blocks\": 1052672, \"mlp_layers_all_blocks\": 2102272, \"layer_norms_all_blocks\": 4096, \"final_layer_norm\": 512, \"classification_head\": 25700, \"manual_total\": 3214692, \"programmatic_total\": 3214692, \"matches_programmatic_total\": true}}",
+      "total_parameters": 3214692,
+      "trainable_parameters": 3214692,
+      "model_size_mb": 12.263076782226562,
+      "macs_per_forward": 205883392,
+      "estimated_flops_if_2x_macs": 411766784,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 365.1804628680002,
+      "mean_epoch_time_seconds": 33.21580834480001,
+      "test_accuracy": 0.3074,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "epochs": 10,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": false,
+      "frozen_backbone": false,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem1/checkpoints/vit_p4_d256_l4_h4.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem1/training_history_vit_p4_d256_l4_h4.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem1/plots/vit_p4_d256_l4_h4_training_curves.png"
+    },
+    {
+      "model_name": "vit_p4_d512_l8_h8",
+      "configuration": "{\"name\": \"vit_p4_d512_l8_h8\", \"image_size\": 32, \"patch_size\": 4, \"in_channels\": 3, \"num_classes\": 100, \"embed_dim\": 512, \"depth\": 8, \"num_heads\": 8, \"dropout\": 0.1, \"mlp_hidden_dim\": 2048, \"manual_parameter_breakdown\": {\"patch_embedding\": 25088, \"class_token\": 512, \"positional_embedding\": 33280, \"attention_projections_all_blocks\": 8404992, \"mlp_layers_all_blocks\": 16797696, \"layer_norms_all_blocks\": 16384, \"final_layer_norm\": 1024, \"classification_head\": 51300, \"manual_total\": 25330276, \"programmatic_total\": 25330276, \"matches_programmatic_total\": true}}",
+      "total_parameters": 25330276,
+      "trainable_parameters": 25330276,
+      "model_size_mb": 96.62733459472656,
+      "macs_per_forward": 1639665664,
+      "estimated_flops_if_2x_macs": 3279331328,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 1977.6259558720003,
+      "mean_epoch_time_seconds": 184.94646722080006,
+      "test_accuracy": 0.0553,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "epochs": 10,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": false,
+      "frozen_backbone": false,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem1/checkpoints/vit_p4_d512_l8_h8.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem1/training_history_vit_p4_d512_l8_h8.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem1/plots/vit_p4_d512_l8_h8_training_curves.png"
+    },
+    {
+      "model_name": "vit_p8_d256_l4_h4",
+      "configuration": "{\"name\": \"vit_p8_d256_l4_h4\", \"image_size\": 32, \"patch_size\": 8, \"in_channels\": 3, \"num_classes\": 100, \"embed_dim\": 256, \"depth\": 4, \"num_heads\": 4, \"dropout\": 0.1, \"mlp_hidden_dim\": 1024, \"manual_parameter_breakdown\": {\"patch_embedding\": 49408, \"class_token\": 256, \"positional_embedding\": 4352, \"attention_projections_all_blocks\": 1052672, \"mlp_layers_all_blocks\": 2102272, \"layer_norms_all_blocks\": 4096, \"final_layer_norm\": 512, \"classification_head\": 25700, \"manual_total\": 3239268, \"programmatic_total\": 3239268, \"matches_programmatic_total\": true}}",
+      "total_parameters": 3239268,
+      "trainable_parameters": 3239268,
+      "model_size_mb": 12.356826782226562,
+      "macs_per_forward": 54446080,
+      "estimated_flops_if_2x_macs": 108892160,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 307.1147712330003,
+      "mean_epoch_time_seconds": 27.47121248129988,
+      "test_accuracy": 0.1005,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "epochs": 10,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": false,
+      "frozen_backbone": false,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem1/checkpoints/vit_p8_d256_l4_h4.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem1/training_history_vit_p8_d256_l4_h4.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem1/plots/vit_p8_d256_l4_h4_training_curves.png"
+    },
+    {
+      "model_name": "vit_p8_d512_l8_h8",
+      "configuration": "{\"name\": \"vit_p8_d512_l8_h8\", \"image_size\": 32, \"patch_size\": 8, \"in_channels\": 3, \"num_classes\": 100, \"embed_dim\": 512, \"depth\": 8, \"num_heads\": 8, \"dropout\": 0.1, \"mlp_hidden_dim\": 2048, \"manual_parameter_breakdown\": {\"patch_embedding\": 98816, \"class_token\": 512, \"positional_embedding\": 8704, \"attention_projections_all_blocks\": 8404992, \"mlp_layers_all_blocks\": 16797696, \"layer_norms_all_blocks\": 16384, \"final_layer_norm\": 1024, \"classification_head\": 51300, \"manual_total\": 25379428, \"programmatic_total\": 25379428, \"matches_programmatic_total\": true}}",
+      "total_parameters": 25379428,
+      "trainable_parameters": 25379428,
+      "model_size_mb": 96.81483459472656,
+      "macs_per_forward": 430034944,
+      "estimated_flops_if_2x_macs": 860069888,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 593.916345052,
+      "mean_epoch_time_seconds": 55.33453473029995,
+      "test_accuracy": 0.0603,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "epochs": 10,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": false,
+      "frozen_backbone": false,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem1/checkpoints/vit_p8_d512_l8_h8.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem1/training_history_vit_p8_d512_l8_h8.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem1/plots/vit_p8_d512_l8_h8_training_curves.png"
+    },
+    {
+      "model_name": "resnet18_pretrained_imagenet",
+      "configuration": "{\"architecture\": \"torchvision.models.resnet18\", \"weights\": \"ResNet18_Weights.IMAGENET1K_V1\", \"input_size\": 224, \"normalization\": \"ImageNet\", \"classifier_outputs\": 100}",
+      "total_parameters": 11227812,
+      "trainable_parameters": 11227812,
+      "model_size_mb": 42.83070373535156,
+      "macs_per_forward": 1823572992,
+      "estimated_flops_if_2x_macs": 3647145984,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 1706.7313242929995,
+      "mean_epoch_time_seconds": 151.68862567920004,
+      "test_accuracy": 0.7048,
+      "batch_size": 64,
+      "learning_rate": 0.001,
+      "epochs": 10,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": true,
+      "frozen_backbone": false,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem1/checkpoints/resnet18_pretrained_imagenet.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem1/training_history_resnet18_pretrained_imagenet.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem1/plots/resnet18_pretrained_imagenet_training_curves.png"
+    }
+  ],
+  "details": {
+    "vit_p4_d256_l4_h4": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 4.024211178894043,
+          "train_accuracy": 0.07706,
+          "epoch_time_seconds": 33.92346932600003,
+          "eval_loss": 3.783489971923828,
+          "eval_accuracy": 0.1024
+        },
+        {
+          "epoch": 2,
+          "train_loss": 3.6530240881347655,
+          "train_accuracy": 0.13134,
+          "epoch_time_seconds": 31.967915477000133,
+          "eval_loss": 3.4838412132263183,
+          "eval_accuracy": 0.1565
+        },
+        {
+          "epoch": 3,
+          "train_loss": 3.439249949493408,
+          "train_accuracy": 0.16574,
+          "epoch_time_seconds": 32.42125745600015,
+          "eval_loss": 3.3170078433990478,
+          "eval_accuracy": 0.1855
+        },
+        {
+          "epoch": 4,
+          "train_loss": 3.2799004681396484,
+          "train_accuracy": 0.19404,
+          "epoch_time_seconds": 33.77726494799981,
+          "eval_loss": 3.1510910301208495,
+          "eval_accuracy": 0.222
+        },
+        {
+          "epoch": 5,
+          "train_loss": 3.157383593902588,
+          "train_accuracy": 0.21794,
+          "epoch_time_seconds": 32.70950482399985,
+          "eval_loss": 2.9910081672668456,
+          "eval_accuracy": 0.2497
+        },
+        {
+          "epoch": 6,
+          "train_loss": 3.079141022872925,
+          "train_accuracy": 0.233,
+          "epoch_time_seconds": 34.84281131800026,
+          "eval_loss": 2.951948257446289,
+          "eval_accuracy": 0.255
+        },
+        {
+          "epoch": 7,
+          "train_loss": 2.999872554168701,
+          "train_accuracy": 0.24852,
+          "epoch_time_seconds": 33.03262658199992,
+          "eval_loss": 2.903115676879883,
+          "eval_accuracy": 0.2659
+        },
+        {
+          "epoch": 8,
+          "train_loss": 2.925627735595703,
+          "train_accuracy": 0.26148,
+          "epoch_time_seconds": 33.38358220500004,
+          "eval_loss": 2.784507068634033,
+          "eval_accuracy": 0.2908
+        },
+        {
+          "epoch": 9,
+          "train_loss": 2.8540555851745606,
+          "train_accuracy": 0.27868,
+          "epoch_time_seconds": 32.93102937499998,
+          "eval_loss": 2.73374080657959,
+          "eval_accuracy": 0.3023
+        },
+        {
+          "epoch": 10,
+          "train_loss": 2.790336562652588,
+          "train_accuracy": 0.29034,
+          "epoch_time_seconds": 33.1686219369999,
+          "eval_loss": 2.7040896293640135,
+          "eval_accuracy": 0.3074
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 365.1804628680002,
+        "mean_epoch_time_seconds": 33.21580834480001,
+        "final_eval_accuracy": 0.3074,
+        "final_eval_loss": 2.7040896293640135
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 205883392,
+        "params_seen_by_tool": 3197796,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 411766784
+      }
+    },
+    "vit_p4_d512_l8_h8": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 4.2261783682250975,
+          "train_accuracy": 0.05166,
+          "epoch_time_seconds": 188.99700792700014,
+          "eval_loss": 4.170192065429688,
+          "eval_accuracy": 0.061
+        },
+        {
+          "epoch": 2,
+          "train_loss": 4.1030273764038085,
+          "train_accuracy": 0.06492,
+          "epoch_time_seconds": 188.4385826800003,
+          "eval_loss": 4.115142227935791,
+          "eval_accuracy": 0.0654
+        },
+        {
+          "epoch": 3,
+          "train_loss": 4.17542232093811,
+          "train_accuracy": 0.05894,
+          "epoch_time_seconds": 187.6631868180002,
+          "eval_loss": 4.135228531646728,
+          "eval_accuracy": 0.0644
+        },
+        {
+          "epoch": 4,
+          "train_loss": 4.153297867584229,
+          "train_accuracy": 0.06134,
+          "epoch_time_seconds": 187.03871534300015,
+          "eval_loss": 4.132761522674561,
+          "eval_accuracy": 0.0672
+        },
+        {
+          "epoch": 5,
+          "train_loss": 4.167361863098145,
+          "train_accuracy": 0.05894,
+          "epoch_time_seconds": 185.5562204349999,
+          "eval_loss": 4.17263243560791,
+          "eval_accuracy": 0.0625
+        },
+        {
+          "epoch": 6,
+          "train_loss": 4.180740750732422,
+          "train_accuracy": 0.05982,
+          "epoch_time_seconds": 183.8214936689992,
+          "eval_loss": 4.2380198471069335,
+          "eval_accuracy": 0.0591
+        },
+        {
+          "epoch": 7,
+          "train_loss": 4.193557704467773,
+          "train_accuracy": 0.05956,
+          "epoch_time_seconds": 182.7663168170002,
+          "eval_loss": 4.119324787902832,
+          "eval_accuracy": 0.0731
+        },
+        {
+          "epoch": 8,
+          "train_loss": 4.169798138427734,
+          "train_accuracy": 0.0619,
+          "epoch_time_seconds": 181.72054336300062,
+          "eval_loss": 4.112018109893799,
+          "eval_accuracy": 0.0668
+        },
+        {
+          "epoch": 9,
+          "train_loss": 4.188330750427246,
+          "train_accuracy": 0.05894,
+          "epoch_time_seconds": 182.00225739100006,
+          "eval_loss": 4.166219244384766,
+          "eval_accuracy": 0.0634
+        },
+        {
+          "epoch": 10,
+          "train_loss": 4.227994461364746,
+          "train_accuracy": 0.05376,
+          "epoch_time_seconds": 181.46034776499982,
+          "eval_loss": 4.221974113464356,
+          "eval_accuracy": 0.0553
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 1977.6259558720003,
+        "mean_epoch_time_seconds": 184.94646722080006,
+        "final_eval_accuracy": 0.0553,
+        "final_eval_loss": 4.221974113464356
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 1639665664,
+        "params_seen_by_tool": 25296484,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 3279331328
+      }
+    },
+    "vit_p8_d256_l4_h4": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 4.154695967254638,
+          "train_accuracy": 0.0633,
+          "epoch_time_seconds": 28.569303881999986,
+          "eval_loss": 3.986603078460693,
+          "eval_accuracy": 0.0819
+        },
+        {
+          "epoch": 2,
+          "train_loss": 3.9989472679138185,
+          "train_accuracy": 0.0822,
+          "epoch_time_seconds": 27.775396745999387,
+          "eval_loss": 3.9579206130981444,
+          "eval_accuracy": 0.088
+        },
+        {
+          "epoch": 3,
+          "train_loss": 3.9505979379272462,
+          "train_accuracy": 0.08616,
+          "epoch_time_seconds": 28.079257607999352,
+          "eval_loss": 4.004156539916992,
+          "eval_accuracy": 0.0846
+        },
+        {
+          "epoch": 4,
+          "train_loss": 3.9630830139160156,
+          "train_accuracy": 0.0864,
+          "epoch_time_seconds": 27.574443130999498,
+          "eval_loss": 3.9183692138671873,
+          "eval_accuracy": 0.0917
+        },
+        {
+          "epoch": 5,
+          "train_loss": 3.982713482131958,
+          "train_accuracy": 0.08354,
+          "epoch_time_seconds": 27.438183152999954,
+          "eval_loss": 3.9171106101989746,
+          "eval_accuracy": 0.0951
+        },
+        {
+          "epoch": 6,
+          "train_loss": 3.941800191345215,
+          "train_accuracy": 0.0884,
+          "epoch_time_seconds": 26.47878534099982,
+          "eval_loss": 3.9736967948913575,
+          "eval_accuracy": 0.0828
+        },
+        {
+          "epoch": 7,
+          "train_loss": 3.947894334182739,
+          "train_accuracy": 0.08822,
+          "epoch_time_seconds": 25.823601615999905,
+          "eval_loss": 3.89618338394165,
+          "eval_accuracy": 0.0974
+        },
+        {
+          "epoch": 8,
+          "train_loss": 3.9160347315216066,
+          "train_accuracy": 0.0938,
+          "epoch_time_seconds": 27.34560164300001,
+          "eval_loss": 3.8805694694519044,
+          "eval_accuracy": 0.0986
+        },
+        {
+          "epoch": 9,
+          "train_loss": 3.9286867722320555,
+          "train_accuracy": 0.09328,
+          "epoch_time_seconds": 28.03653850900082,
+          "eval_loss": 3.9279049240112305,
+          "eval_accuracy": 0.0923
+        },
+        {
+          "epoch": 10,
+          "train_loss": 3.928780118865967,
+          "train_accuracy": 0.0914,
+          "epoch_time_seconds": 27.591013184000076,
+          "eval_loss": 3.877237464904785,
+          "eval_accuracy": 0.1005
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 307.1147712330003,
+        "mean_epoch_time_seconds": 27.47121248129988,
+        "final_eval_accuracy": 0.1005,
+        "final_eval_loss": 3.877237464904785
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 54446080,
+        "params_seen_by_tool": 3234660,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 108892160
+      }
+    },
+    "vit_p8_d512_l8_h8": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 4.31516352432251,
+          "train_accuracy": 0.04366,
+          "epoch_time_seconds": 56.711246981999466,
+          "eval_loss": 4.196017781829834,
+          "eval_accuracy": 0.0608
+        },
+        {
+          "epoch": 2,
+          "train_loss": 4.219716250762939,
+          "train_accuracy": 0.0542,
+          "epoch_time_seconds": 55.48807203599972,
+          "eval_loss": 4.161795028686523,
+          "eval_accuracy": 0.0655
+        },
+        {
+          "epoch": 3,
+          "train_loss": 4.164862476806641,
+          "train_accuracy": 0.06066,
+          "epoch_time_seconds": 55.57427273999929,
+          "eval_loss": 4.158344230651855,
+          "eval_accuracy": 0.0656
+        },
+        {
+          "epoch": 4,
+          "train_loss": 4.1850870974731444,
+          "train_accuracy": 0.05948,
+          "epoch_time_seconds": 55.64423907299988,
+          "eval_loss": 4.174780415344238,
+          "eval_accuracy": 0.0613
+        },
+        {
+          "epoch": 5,
+          "train_loss": 4.2021162492370605,
+          "train_accuracy": 0.05614,
+          "epoch_time_seconds": 54.936881575999905,
+          "eval_loss": 4.155428866577148,
+          "eval_accuracy": 0.0648
+        },
+        {
+          "epoch": 6,
+          "train_loss": 4.215998347473144,
+          "train_accuracy": 0.05676,
+          "epoch_time_seconds": 54.92488084100023,
+          "eval_loss": 4.185262580871582,
+          "eval_accuracy": 0.0616
+        },
+        {
+          "epoch": 7,
+          "train_loss": 4.186686334991455,
+          "train_accuracy": 0.0601,
+          "epoch_time_seconds": 54.93987813700005,
+          "eval_loss": 4.15104312210083,
+          "eval_accuracy": 0.0669
+        },
+        {
+          "epoch": 8,
+          "train_loss": 4.196901245040894,
+          "train_accuracy": 0.05822,
+          "epoch_time_seconds": 56.04010034000021,
+          "eval_loss": 4.187515025329589,
+          "eval_accuracy": 0.0572
+        },
+        {
+          "epoch": 9,
+          "train_loss": 4.214241741027832,
+          "train_accuracy": 0.05686,
+          "epoch_time_seconds": 54.673850515000595,
+          "eval_loss": 4.196036177062989,
+          "eval_accuracy": 0.0557
+        },
+        {
+          "epoch": 10,
+          "train_loss": 4.206754125366211,
+          "train_accuracy": 0.05742,
+          "epoch_time_seconds": 54.411925063000126,
+          "eval_loss": 4.194759814453125,
+          "eval_accuracy": 0.0603
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 593.916345052,
+        "mean_epoch_time_seconds": 55.33453473029995,
+        "final_eval_accuracy": 0.0603,
+        "final_eval_loss": 4.194759814453125
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 430034944,
+        "params_seen_by_tool": 25370212,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 860069888
+      }
+    },
+    "resnet18_pretrained_imagenet": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.9629454697418214,
+          "train_accuracy": 0.46808,
+          "epoch_time_seconds": 156.00474866100012,
+          "eval_loss": 1.6114384801864623,
+          "eval_accuracy": 0.5538
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.2443299562835692,
+          "train_accuracy": 0.6379,
+          "epoch_time_seconds": 151.2912401250005,
+          "eval_loss": 1.3012048526763915,
+          "eval_accuracy": 0.6306
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.9649941238021851,
+          "train_accuracy": 0.71296,
+          "epoch_time_seconds": 150.86725532299988,
+          "eval_loss": 1.2458586421966553,
+          "eval_accuracy": 0.6584
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.7749681049346924,
+          "train_accuracy": 0.76342,
+          "epoch_time_seconds": 150.79793741100002,
+          "eval_loss": 1.2130028015136718,
+          "eval_accuracy": 0.6628
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.6176273022460937,
+          "train_accuracy": 0.8082,
+          "epoch_time_seconds": 151.4319642089995,
+          "eval_loss": 1.1799859825134278,
+          "eval_accuracy": 0.6852
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.5087129436302185,
+          "train_accuracy": 0.83838,
+          "epoch_time_seconds": 150.18900744599978,
+          "eval_loss": 1.169239227104187,
+          "eval_accuracy": 0.6925
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.4079035063171387,
+          "train_accuracy": 0.87012,
+          "epoch_time_seconds": 152.11795036700005,
+          "eval_loss": 1.2550953553199768,
+          "eval_accuracy": 0.6934
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.33013935499668123,
+          "train_accuracy": 0.89476,
+          "epoch_time_seconds": 151.50951902199995,
+          "eval_loss": 1.2505468684196472,
+          "eval_accuracy": 0.6996
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.28467203178405764,
+          "train_accuracy": 0.90856,
+          "epoch_time_seconds": 150.96792862000075,
+          "eval_loss": 1.2834583728790283,
+          "eval_accuracy": 0.6997
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.24308748105049133,
+          "train_accuracy": 0.91992,
+          "epoch_time_seconds": 151.70870560799995,
+          "eval_loss": 1.3052794177055358,
+          "eval_accuracy": 0.7048
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 1706.7313242929995,
+        "mean_epoch_time_seconds": 151.68862567920004,
+        "final_eval_accuracy": 0.7048,
+        "final_eval_loss": 1.3052794177055358
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 1823572992,
+        "params_seen_by_tool": 11227812,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 3647145984
+      }
+    }
+  }
+}

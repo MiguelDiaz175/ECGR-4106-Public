@@ -1,0 +1,296 @@
+{
+  "results": [
+    {
+      "model_name": "swin_tiny_pretrained_frozen",
+      "configuration": "{\"checkpoint\": \"microsoft/swin-tiny-patch4-window7-224\", \"num_labels\": 100, \"ignore_mismatched_sizes\": true, \"only_classifier_trainable\": true}",
+      "total_parameters": 27596254,
+      "trainable_parameters": 76900,
+      "model_size_mb": 105.27135467529297,
+      "macs_per_forward": 4364674560,
+      "estimated_flops_if_2x_macs": 8729349120,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 1386.0040750649996,
+      "mean_epoch_time_seconds": 230.08543603439995,
+      "test_accuracy": 0.6642,
+      "batch_size": 32,
+      "learning_rate": 2e-05,
+      "epochs": 5,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": true,
+      "frozen_backbone": true,
+      "trainable_parameter_groups": "[\"classifier.weight\", \"classifier.bias\"]",
+      "input_resolution": 224,
+      "preprocessing": "Hugging Face Swin image processor mean/std with Resize(224)",
+      "peak_gpu_memory_mb": 698.3095703125,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem2/checkpoints/swin_tiny_pretrained_frozen.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem2/training_history_swin_tiny_pretrained_frozen.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem2/plots/swin_tiny_pretrained_frozen_training_curves.png"
+    },
+    {
+      "model_name": "swin_small_pretrained_frozen",
+      "configuration": "{\"checkpoint\": \"microsoft/swin-small-patch4-window7-224\", \"num_labels\": 100, \"ignore_mismatched_sizes\": true, \"only_classifier_trainable\": true}",
+      "total_parameters": 48914158,
+      "trainable_parameters": 76900,
+      "model_size_mb": 186.59270477294922,
+      "macs_per_forward": 8533698048,
+      "estimated_flops_if_2x_macs": 17067396096,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 2484.2128403849993,
+      "mean_epoch_time_seconds": 413.22652670080004,
+      "test_accuracy": 0.7028,
+      "batch_size": 32,
+      "learning_rate": 2e-05,
+      "epochs": 5,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": true,
+      "frozen_backbone": true,
+      "trainable_parameter_groups": "[\"classifier.weight\", \"classifier.bias\"]",
+      "input_resolution": 224,
+      "preprocessing": "Hugging Face Swin image processor mean/std with Resize(224)",
+      "peak_gpu_memory_mb": 779.3544921875,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem2/checkpoints/swin_small_pretrained_frozen.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem2/training_history_swin_small_pretrained_frozen.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem2/plots/swin_small_pretrained_frozen_training_curves.png"
+    },
+    {
+      "model_name": "swin_scratch_compact",
+      "configuration": "{\"image_size\": 224, \"patch_size\": 4, \"in_channels\": 3, \"num_classes\": 100, \"embed_dim\": 48, \"depths\": [2, 2, 2, 2], \"num_heads\": [3, 6, 12, 24], \"window_size\": 7, \"dropout\": 0.0}",
+      "total_parameters": 5165566,
+      "trainable_parameters": 5165566,
+      "model_size_mb": 19.70507049560547,
+      "macs_per_forward": 750495744,
+      "estimated_flops_if_2x_macs": 1500991488,
+      "complexity_tool": "thop",
+      "complexity_status": "ok",
+      "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+      "total_training_time_seconds": 1258.99125655,
+      "mean_epoch_time_seconds": 228.84733739679996,
+      "test_accuracy": 0.032,
+      "batch_size": 32,
+      "learning_rate": 0.001,
+      "epochs": 5,
+      "optimizer": "Adam",
+      "random_seed": 42,
+      "device": "cuda",
+      "device_name": "Tesla T4",
+      "pretrained_weights_used": false,
+      "frozen_backbone": false,
+      "trainable_parameter_groups": "[\"all\"]",
+      "input_resolution": 224,
+      "preprocessing": "Hugging Face Swin image processor mean/std with Resize(224)",
+      "peak_gpu_memory_mb": 1762.26318359375,
+      "checkpoint_path": "/content/drive/MyDrive/homework_5/results/problem2/checkpoints/swin_scratch_compact.pt",
+      "history_path": "/content/drive/MyDrive/homework_5/results/problem2/training_history_swin_scratch_compact.csv",
+      "plot_path": "/content/drive/MyDrive/homework_5/results/problem2/plots/swin_scratch_compact_training_curves.png"
+    }
+  ],
+  "details": {
+    "scratch_shape_tests": {
+      "window_partition": [
+        128,
+        7,
+        7,
+        3
+      ],
+      "window_reverse_matches": true,
+      "patch_merging": [
+        2,
+        784,
+        96
+      ],
+      "shifted_block": [
+        2,
+        3136,
+        48
+      ],
+      "end_to_end_logits": [
+        2,
+        100
+      ]
+    },
+    "swin_tiny_pretrained_frozen": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 4.039205738372803,
+          "train_accuracy": 0.249,
+          "epoch_time_seconds": 220.141497221,
+          "eval_loss": 3.479041872024536,
+          "eval_accuracy": 0.4684
+        },
+        {
+          "epoch": 2,
+          "train_loss": 3.0210766148376464,
+          "train_accuracy": 0.55134,
+          "epoch_time_seconds": 232.287138658,
+          "eval_loss": 2.64478017578125,
+          "eval_accuracy": 0.5852
+        },
+        {
+          "epoch": 3,
+          "train_loss": 2.331273348236084,
+          "train_accuracy": 0.6196,
+          "epoch_time_seconds": 232.88878668300003,
+          "eval_loss": 2.1072326965332033,
+          "eval_accuracy": 0.6254
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.8988184762573241,
+          "train_accuracy": 0.65062,
+          "epoch_time_seconds": 232.1259836459999,
+          "eval_loss": 1.7752217933654786,
+          "eval_accuracy": 0.6473
+        },
+        {
+          "epoch": 5,
+          "train_loss": 1.6289029557800292,
+          "train_accuracy": 0.67024,
+          "epoch_time_seconds": 232.98377396399974,
+          "eval_loss": 1.5653392726898194,
+          "eval_accuracy": 0.6642
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 1386.0040750649996,
+        "mean_epoch_time_seconds": 230.08543603439995,
+        "final_eval_accuracy": 0.6642,
+        "final_eval_loss": 1.5653392726898194
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 4364674560,
+        "params_seen_by_tool": 27572932,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 8729349120
+      }
+    },
+    "swin_small_pretrained_frozen": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 3.9857190548706054,
+          "train_accuracy": 0.29278,
+          "epoch_time_seconds": 413.140845721,
+          "eval_loss": 3.3687553657531737,
+          "eval_accuracy": 0.5253
+        },
+        {
+          "epoch": 2,
+          "train_loss": 2.8755590379333498,
+          "train_accuracy": 0.5963,
+          "epoch_time_seconds": 413.96395732200017,
+          "eval_loss": 2.4628345001220704,
+          "eval_accuracy": 0.6298
+        },
+        {
+          "epoch": 3,
+          "train_loss": 2.1437225128173827,
+          "train_accuracy": 0.65516,
+          "epoch_time_seconds": 412.57220849999976,
+          "eval_loss": 1.9036293880462647,
+          "eval_accuracy": 0.6666
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.7063371263122558,
+          "train_accuracy": 0.68474,
+          "epoch_time_seconds": 413.3091413940001,
+          "eval_loss": 1.5771423990249633,
+          "eval_accuracy": 0.6865
+        },
+        {
+          "epoch": 5,
+          "train_loss": 1.4476384735870362,
+          "train_accuracy": 0.70048,
+          "epoch_time_seconds": 413.14648056700025,
+          "eval_loss": 1.3803637258529664,
+          "eval_accuracy": 0.7028
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 2484.2128403849993,
+        "mean_epoch_time_seconds": 413.22652670080004,
+        "final_eval_accuracy": 0.7028,
+        "final_eval_loss": 1.3803637258529664
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 8533698048,
+        "params_seen_by_tool": 48866500,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 17067396096
+      }
+    },
+    "swin_scratch_compact": {
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 4.357091429138183,
+          "train_accuracy": 0.0398,
+          "epoch_time_seconds": 229.19657336199998,
+          "eval_loss": 4.5091681442260745,
+          "eval_accuracy": 0.0214
+        },
+        {
+          "epoch": 2,
+          "train_loss": 4.2579387007904055,
+          "train_accuracy": 0.05116,
+          "epoch_time_seconds": 228.81707727699995,
+          "eval_loss": 4.118283396148682,
+          "eval_accuracy": 0.0695
+        },
+        {
+          "epoch": 3,
+          "train_loss": 4.108765846099853,
+          "train_accuracy": 0.0715,
+          "epoch_time_seconds": 229.27346883600057,
+          "eval_loss": 4.285711219024658,
+          "eval_accuracy": 0.046
+        },
+        {
+          "epoch": 4,
+          "train_loss": 4.337961361236572,
+          "train_accuracy": 0.04074,
+          "epoch_time_seconds": 228.95273337799972,
+          "eval_loss": 4.428417388916015,
+          "eval_accuracy": 0.0344
+        },
+        {
+          "epoch": 5,
+          "train_loss": 4.387271831054687,
+          "train_accuracy": 0.0384,
+          "epoch_time_seconds": 227.99683413099956,
+          "eval_loss": 4.442420889282227,
+          "eval_accuracy": 0.032
+        }
+      ],
+      "summary": {
+        "total_training_time_seconds": 1258.99125655,
+        "mean_epoch_time_seconds": 228.84733739679996,
+        "final_eval_accuracy": 0.032,
+        "final_eval_loss": 4.442420889282227
+      },
+      "complexity": {
+        "complexity_tool": "thop",
+        "complexity_status": "ok",
+        "macs": 750495744,
+        "params_seen_by_tool": 5150356,
+        "flops_convention": "thop returns MACs; FLOPs are often approximated as 2x MACs",
+        "estimated_flops_if_2x_macs": 1500991488
+      }
+    }
+  }
+}
