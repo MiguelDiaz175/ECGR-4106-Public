@@ -20,7 +20,6 @@ All final numbers in the report come from the downloaded Google Colab result fil
 
 ```text
 homework_5/
-├── ECGR4106_Homework5_Report.docx
 ├── README.md
 ├── notebooks/
 │   ├── problem1_vit_resnet_cifar100.ipynb
@@ -133,4 +132,3 @@ results/problem2/plots/*_training_curves.png
 - The raw complexity tool output is labeled as MACs.
 - The pretrained Swin classifier layers were reinitialized for 100 CIFAR-100 classes.
 - The pretrained Swin backbones were explicitly frozen with `requires_grad = False`.
-- The final report is provided as `ECGR4106_Homework5_Report.docx` and can be converted to PDF for submission.
